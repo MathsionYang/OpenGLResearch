@@ -1,6 +1,7 @@
 # Prerequisites
 *.d
-
+OpenGl_01_drawTri/.vs
+OpenGl_01_drawTri/x64
 # Compiled Object files
 *.slo
 *.lo
