@@ -43,6 +43,6 @@ private:
 
     Shader* m_Shader;
 
-    GLuint VBOPost, VBOColor, VBOTexture;
+    GLuint VBOPostion, VBOColor, VBOTexturePostion;
     QOpenGLTexture* m_texture;
 };
