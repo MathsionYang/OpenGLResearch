@@ -1,7 +1,7 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
 <Qt_DEFINES_>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB</Qt_DEFINES_>
-<Qt_INCLUDEPATH_>D:\QOpenGLResearch\OpenGLResearch\OpenGl_01_drawTri\x64\Debug\qmake\temp;F:\QT5142\5.14.2\msvc2017_64\include;F:\QT5142\5.14.2\msvc2017_64\include\QtOpenGL;F:\QT5142\5.14.2\msvc2017_64\include\QtWidgets;F:\QT5142\5.14.2\msvc2017_64\include\QtGui;F:\QT5142\5.14.2\msvc2017_64\include\QtANGLE;F:\QT5142\5.14.2\msvc2017_64\include\QtCore;D:\QOpenGLResearch\OpenGLResearch\OpenGl_01_drawTri\x64\Debug\qmake\temp;/include;F:\QT5142\5.14.2\msvc2017_64\mkspecs\win32-msvc</Qt_INCLUDEPATH_>
+<Qt_INCLUDEPATH_>D:\QOpenGLResearch\OpenGLResearch\OpenGl_02_shader\x64\Debug\qmake\temp;F:\QT5142\5.14.2\msvc2017_64\include;F:\QT5142\5.14.2\msvc2017_64\include\QtOpenGL;F:\QT5142\5.14.2\msvc2017_64\include\QtWidgets;F:\QT5142\5.14.2\msvc2017_64\include\QtGui;F:\QT5142\5.14.2\msvc2017_64\include\QtANGLE;F:\QT5142\5.14.2\msvc2017_64\include\QtCore;D:\QOpenGLResearch\OpenGLResearch\OpenGl_02_shader\x64\Debug\qmake\temp;/include;F:\QT5142\5.14.2\msvc2017_64\mkspecs\win32-msvc</Qt_INCLUDEPATH_>
 <Qt_STDCPP_></Qt_STDCPP_>
 <Qt_CL_OPTIONS_>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus</Qt_CL_OPTIONS_>
 <Qt_LIBS_>F:\QT5142\5.14.2\msvc2017_64\lib\Qt5OpenGLd.lib;F:\QT5142\5.14.2\msvc2017_64\lib\Qt5Widgetsd.lib;F:\QT5142\5.14.2\msvc2017_64\lib\Qt5Guid.lib;F:\QT5142\5.14.2\msvc2017_64\lib\Qt5Cored.lib;F:\QT5142\5.14.2\msvc2017_64\lib\qtmaind.lib;shell32.lib</Qt_LIBS_>

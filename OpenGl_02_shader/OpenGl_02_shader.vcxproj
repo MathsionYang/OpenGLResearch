@@ -31,8 +31,8 @@
     <Import Project="$(QtMsBuild)\qt_defaults.props" />
   </ImportGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="QtSettings">
-    <QtInstall>QT5111</QtInstall>
-    <QtModules>core;opengl;gui;widgets;openglextensions</QtModules>
+    <QtInstall>QT512</QtInstall>
+    <QtModules>core;opengl;gui;widgets;positioning;openglextensions</QtModules>
     <QtBuildConfig>release</QtBuildConfig>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="QtSettings">
