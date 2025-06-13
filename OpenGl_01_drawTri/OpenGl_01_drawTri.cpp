@@ -68,8 +68,8 @@ void OpenGl_01_drawTri::initializeGL()
 }
 
 void OpenGl_01_drawTri::resizeGL(int w, int h)
-{
-
+{ 
+	m_GLCore->glViewport(0,0,w,h); 
 }
 
 void OpenGl_01_drawTri::paintGL()
