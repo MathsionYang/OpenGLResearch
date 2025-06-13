@@ -1,1 +1,0 @@
-D:\QOpenGLResearch\OpenGLResearch\OpenGl_02_shader\x64\Release\OpenGl_02_shader.exe

@@ -13,6 +13,7 @@ const unsigned int SCR_WIDTH = 800;
 const unsigned int SCR_HEIGHT = 600;
 unsigned int texture1, texture2;
 float mixValue = 0.2f;
+int nReverse = 1;
 int main() {
   // glfw: initialize and configure
   // ------------------------------
@@ -178,6 +179,7 @@ int main() {
 
     ourShader.use();
     ourShader.setValuel("mixValue", mixValue);
+    ourShader.setValuel("nReverse", nReverse);
     // render container
    
     glBindVertexArray(VAO);
@@ -217,6 +219,12 @@ void processInput(GLFWwindow* window) {
     mixValue -= 0.001f;  // change this value accordingly (might be too slow or
                          // too fast based on system hardware)
     if (mixValue <= 0.0f) mixValue = 0.0f;
+  }
+  if (glfwGetKey(window, GLFW_KEY_LEFT) == GLFW_PRESS) {
+    nReverse = 1;
+  }
+  if (glfwGetKey(window, GLFW_KEY_RIGHT) == GLFW_PRESS) {
+    nReverse = -1;
   }
 }
 

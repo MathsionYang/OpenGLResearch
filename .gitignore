@@ -31,3 +31,10 @@ OpenGl_01_drawTri/x64
 *.exe
 *.out
 *.app
+/.vs
+/midout
+/GL_Texture_03/x64
+/GL_Matrix_04/x64
+/GL_Triangle_02/x64
+/GL_Windows_01/x64
+/GLWidgetUI/x64

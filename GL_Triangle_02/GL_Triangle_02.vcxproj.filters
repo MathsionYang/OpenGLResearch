@@ -18,10 +18,10 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\glad\glad.c">
+    <ClCompile Include="..\utils\glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="GLShader.cpp">
+    <ClCompile Include="..\utils\GLShader.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -30,7 +30,7 @@
     <None Include="shader.fs" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GLShader.h">
+    <ClInclude Include="..\utils\GLShader.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
