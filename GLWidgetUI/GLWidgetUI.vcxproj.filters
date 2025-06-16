@@ -35,26 +35,33 @@
     <ClCompile Include="GLWidgetUI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <QtRcc Include="shader\Resource.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GLWidget.cpp">
+    <ClCompile Include="glui\GLWidget.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Shader.cpp">
+    <ClCompile Include="shader\GLShader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="GLWidget.h">
+    <QtMoc Include="glui\GLWidget.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Shader.h">
+    <ClInclude Include="shader\GLShader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\shader.vert" />
+    <None Include="shader\shader.frag" />
   </ItemGroup>
 </Project>

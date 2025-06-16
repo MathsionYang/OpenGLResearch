@@ -9,7 +9,7 @@
 #include <sstream>
 #include <string>
 
-namespace GLUtils {
+namespace ogl {
 class  GLShader {
  public:
   GLShader(const char* vertexPath, const char* fragmentPath);

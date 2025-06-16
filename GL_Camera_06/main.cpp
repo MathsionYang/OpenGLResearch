@@ -107,7 +107,7 @@ int main() {
   }
   glEnable(GL_DEPTH_TEST);
 
-  GLUtils::GLShader ourShader("shader.vs", "shader.fs");
+  ogl::GLShader ourShader("shader.vs", "shader.fs");
   float vertices[] = {
       -0.5f, -0.5f, -0.5f, 0.0f, 0.0f, 0.5f,  -0.5f, -0.5f, 1.0f, 0.0f,
       0.5f,  0.5f,  -0.5f, 1.0f, 1.0f, 0.5f,  0.5f,  -0.5f, 1.0f, 1.0f,

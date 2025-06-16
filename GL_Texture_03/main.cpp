@@ -47,7 +47,7 @@ int main() {
 
   // build and compile our shader zprogram
   // ------------------------------------
-  GLUtils::GLShader ourShader("shader.vs", "shader.fs");
+  ogl::GLShader ourShader("shader.vs", "shader.fs");
 
   // set up vertex data (and buffer(s)) and configure vertex attributes
   // ------------------------------------------------------------------

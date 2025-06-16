@@ -23,7 +23,7 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height) {
 const unsigned int SCR_WIDTH = 800;
 const unsigned int SCR_HEIGHT = 600;
 
-void function(GLFWwindow* window, GLUtils::GLShader ourShader) {
+void function(GLFWwindow* window, ogl::GLShader ourShader) {
   float vertices[] = {
       // positions          // texture coords
       0.5f,  0.5f,  0.0f, 1.0f, 1.0f,  // top right
@@ -140,7 +140,7 @@ void function(GLFWwindow* window, GLUtils::GLShader ourShader) {
   glDeleteBuffers(1, &EBO);
 }
 
-void function2(GLFWwindow* window, GLUtils::GLShader ourShader) {
+void function2(GLFWwindow* window, ogl::GLShader ourShader) {
   float vertices[] = {
       -0.5f, -0.5f, -0.5f, 0.0f, 0.0f, 0.5f,  -0.5f, -0.5f, 1.0f, 0.0f,
       0.5f,  0.5f,  -0.5f, 1.0f, 1.0f, 0.5f,  0.5f,  -0.5f, 1.0f, 1.0f,
@@ -289,7 +289,7 @@ int main() {
     std::cout << "Failed to initialize GLAD" << std::endl;
     return -1;
   }
-  GLUtils::GLShader ourShader("shader.vs", "shader.fs");
+  ogl::GLShader ourShader("shader.vs", "shader.fs");
   function2(window, ourShader);
   // glfw: terminate, clearing all previously allocated GLFW resources.
   // ------------------------------------------------------------------

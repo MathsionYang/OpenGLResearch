@@ -1,5 +1,7 @@
+
+
 #include "GLShader.h"
-namespace GLUtils {
+namespace ogl {
 GLShader::GLShader(const char* vertexPath, const char* fragmentPath)
 {
   std::string vertexCode;
@@ -54,8 +56,8 @@ GLShader::GLShader(const char* vertexPath, const char* fragmentPath)
 }
 void GLShader::use() 
 { 
-    glUseProgram(ID);
-}
+    glUseProgram(ID); }
+
 void GLShader::checkCompileErrors(unsigned int shader, std::string type) 
 {
   int success;
